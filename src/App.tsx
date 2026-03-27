@@ -87,7 +87,7 @@ export default function App() {
 
   // Khởi tạo 1 chương trống khi load app
   useEffect(() => {
-    setData([{ tenChuong: '', noiDungs: [{ tenNoiDung: '', soTiet: 0, mucDos: defaultLevels() }] }]);
+    setData([{ tenChuong: '', noiDungs: [{ tenNoiDung: '', donVi: '', soTiet: 0, mucDos: defaultLevels() }] }]);
   }, []);
 
   const themChuongMoi = () => {
