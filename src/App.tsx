@@ -6,8 +6,9 @@
 // @ts-ignore
 import React, { useState, useEffect } from 'react';
 // @ts-ignore
-import { PenSquare, FileText, Download, Plus, Trash2, ChevronRight, Sparkles, RefreshCw, CheckCircle, AlertCircle, BookOpen, Settings, X, Key } from 'lucide-react';
+import { PenSquare, FileText, Download, Plus, Trash2, ChevronRight, Sparkles, RefreshCw, CheckCircle, AlertCircle, BookOpen, Settings, X, Key, Search } from 'lucide-react';
 import TabKiemTra from './components/TabKiemTra';
+import SearchQuestion from './components/SearchQuestion';
 // @ts-ignore
 import { motion, AnimatePresence } from 'motion/react';
 import { QUESTION_BANK, type QBankEntry } from './questionBank';

@@ -148,6 +148,7 @@ export const QUESTION_BANK: Record<string, QBankEntry[]> = {
     { mucDo:'TH', phan:'tln', noiDung:'Viết pt mặt cầu đường kính $AB$, $A(1,2,-1)$, $B(3,0,3)$.', dapAn:'$(x-2)^2+(y-1)^2+(z-1)^2=9$' },
     { mucDo:'VD', phan:'tln', noiDung:'Viết pt mặt cầu ngoại tiếp tứ diện $O,A(2,0,0),B(0,2,0),C(0,0,2)$.', dapAn:'$x^2+y^2+z^2-2x-2y-2z=0$' },
     { mucDo:'VD', phan:'tln', noiDung:'Tìm vị trí tương đối $(S): x^2+y^2+z^2=9$ và $(P): x+y+z=\\sqrt{3}$.', dapAn:'$d(I,(P))=1 < 3=R$ $\\Rightarrow$ $(P)$ cắt $(S)$' },
+    { mucDo:'TH', phan:'tln', noiDung:'Tính diện tích mặt cầu bán kính $R=2$ và mô-đun của số phức $z = 3 - 4i$.', dapAn:'$16\\pi$ và $5$' },
     { mucDo:'VDC', phan:'tln', noiDung:'Tìm mp tiếp xúc $(S): I(1,2,3)$, $R=3$ tại $M(1,2,6)$.', dapAn:'$z=6$' },
     { mucDo:'NB', phan:'ds', noiDung:'Cho $(S): x^2+y^2+z^2-4x+2y-4=0$. Xác định Đúng/Sai:\na) Tâm $I=(2,-1,0)$.\nb) $R=3$.\nc) $O(0,0,0)$ nằm trong $(S)$.\nd) $A(4,-1,0)$ thuộc $(S)$.', dapAn:'Đ Đ Đ S' },
   ],
